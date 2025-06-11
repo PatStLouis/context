@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "UpdateActionEvents": {
+      "@id": "https://schema.org/EventSeries"
+      "@context": {
+        "agent": "https://schema.org/agent"
+      }
+    },
+    "UpdateAction": {
+      "@id": "https://schema.org/UpdateAction"
+      "@context": {
+        "object": "https://schema.org/object"
+      }
+    }
+  }
+}

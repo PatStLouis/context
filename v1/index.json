@@ -3,7 +3,7 @@
     "@protected": true,
     "id": "@id",
     "type": "@type",
-    "UpdateActionEvents": {
+    "UpdateEvents": {
       "@id": "https://schema.org/EventSeries",
       "@context": {
         "id": "@id",

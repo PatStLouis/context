@@ -1,15 +1,31 @@
 {
   "@context": {
+    "@protected": true,
+    "id": "@id",
+    "type": "@type",
     "UpdateActionEvents": {
       "@id": "https://schema.org/EventSeries"
       "@context": {
+        "id": "@id",
+        "type": "@type",
         "agent": "https://schema.org/agent"
       }
     },
     "UpdateAction": {
       "@id": "https://schema.org/UpdateAction"
       "@context": {
-        "object": "https://schema.org/object"
+        "id": "@id",
+        "type": "@type",
+        "object": "https://schema.org/object",
+        "validFrom": {
+          "@id": "https://www.w3.org/2018/credentials#validFrom",
+          "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+        },
+        "proof": {
+          "@id": "https://w3id.org/security#proof",
+          "@type": "@id",
+          "@container": "@graph"
+        }
       }
     }
   }

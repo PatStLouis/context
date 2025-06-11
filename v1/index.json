@@ -4,7 +4,7 @@
     "id": "@id",
     "type": "@type",
     "UpdateActionEvents": {
-      "@id": "https://schema.org/EventSeries"
+      "@id": "https://schema.org/EventSeries",
       "@context": {
         "id": "@id",
         "type": "@type",
@@ -12,7 +12,7 @@
       }
     },
     "UpdateAction": {
-      "@id": "https://schema.org/UpdateAction"
+      "@id": "https://schema.org/UpdateAction",
       "@context": {
         "id": "@id",
         "type": "@type",
